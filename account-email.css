@@ -118,6 +118,10 @@ main {
     width: 400px;
 }
 
+.login a{
+    text-decoration: none;
+}
+
 .form-check {
     margin: 2rem 0;
 }
