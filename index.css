@@ -65,16 +65,19 @@ header{
 /*Main*/
 
 .box {
-    height: 600px;
+    height: 700px;
     width : 1475px;
     background-image: url("./images/background2.jpg");
     background-size: cover;
     border-radius: 1rem;
-    margin: 2rem 2rem;
-    box-shadow: -10px 10px 20px grey;
-
+    margin: 0.5rem 2rem 2rem 2rem;
+    box-shadow: -0.5rem 1rem 15rem black;
+    z-index: 10;
 }
 
+.box:hover {
+    transition: box-shadow 0.5s ease-in-out;
+}
 .box div {
     color: white;
     font-family: "Open Sans", sans-serif;
@@ -89,3 +92,70 @@ header{
 .box div span{
     margin: 1rem;
 }
+
+.categories-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.categories-heading  .cat-h-one {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.categories-heading  .cat-h-two {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.categories {
+    width: 100vw;
+    height: 875px;
+    z-index: -10;
+    margin-top: 1.5rem;
+    display: flex;
+    background-color: rgba(0,29,61,0.8);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categories div {
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+
+.categories div:hover {
+    transform: scale(1.1);
+    margin: 2rem 2rem;
+    transition: transform 3ms linear ;
+}
+
+.categories div a {
+    width: 25rem;
+    height: 20rem;
+    text-decoration: none;
+    margin: 2rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.categories div a:hover {
+    color: white;
+}
+
+.categories div  a img {
+    width: 25rem;
+    height: 20rem;
+    margin-bottom: 1.5rem;
+    border-radius: 2.5%;
+}
+
