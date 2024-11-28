@@ -92,6 +92,15 @@ main {
     font-weight: 600;
 }
 
+
+.login-tittle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: absolute;
+    top: 3rem;
+}
+
 .login-box {
     width : 30rem;
     height : 40rem;
@@ -108,15 +117,20 @@ main {
     width: 400px;
 }
 
-.login-box form {
+.options {
+    color: black;
+    text-align: center;
+    font-size: 0.7rem;
+    font-family: "Open Sans", sans-serif;
     position: relative;
-    top: -4rem;
+    top: 4rem;
 }
 
 .buttons {
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
+    position: relative;
+    top: 2.5rem;
 }
 
 .buttons .btn:hover {
@@ -135,6 +149,6 @@ main {
     text-align: center;
     margin: 1rem;
     position: relative;
-    top: 3rem;
+    bottom: -3rem;
     left: 3rem;
 }
