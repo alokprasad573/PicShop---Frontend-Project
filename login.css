@@ -102,7 +102,7 @@ main {
     font-size: 1.5rem;
     font-weight: 500;
     position: absolute;
-    top: 3rem;
+    top: 2.5rem;
 }
 
 .login-box {
@@ -160,6 +160,10 @@ main {
     background-color: white;
 }
 
+.icons {
+   position: relative;
+   top: 4rem;
+}
 .icons a {
     text-decoration: none;
     font-size: 2rem;
@@ -167,8 +171,8 @@ main {
     text-align: center;
     margin: 1.5rem 1rem;
     position: relative;
-    bottom: -4rem;
-    left: 4rem;
+    left: 5rem;
+
 }
 
 .icons a i:active {

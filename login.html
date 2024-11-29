@@ -12,7 +12,8 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-          integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
@@ -34,7 +35,7 @@
         <div class="collapse navbar-collapse" id="myNavbar-items">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#" id="homeLink">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Categories</a>
@@ -49,7 +50,7 @@
                     <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html"><button class="btn btn-outline-dark">Sign In</button></a>
+                    <button id="signInButton" class="btn btn-outline-dark">Sign In</button>
                 </li>
             </ul>
         </div>
@@ -74,18 +75,16 @@
                     <div class=" login" style="margin-top: 25px">
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" placeholder="Password">
-                        <a href="#" >Forget password.</a>
+                        <a href="#">Forget password.</a>
                     </div>
 
-                        <div class=" form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-                        </div>
-                        <div class="buttons">
-                            <button type="submit" class="btn btn-outline-dark"><a href="home-page.html" style="text-decoration: none; color: black">Log In</a></button>
-                        </div>
-
-
+                    <div class=" form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    <div class="buttons">
+                        <button id="loginButton" type="button" class="btn btn-outline-dark">Log In</button>
+                    </div>
                     <div class="options">
                         <p>or Sign in with. <a href="#">Create account.</a></p>
                     </div>
@@ -99,6 +98,25 @@
             </form>
         </div>
     </main>
-
+    <script>
+        document.getElementById('signInButton').addEventListener('click', function () {
+            window.location.href = 'login.html';
+        });
+    </script>
+    <script>
+        document.getElementById('homeLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            window.location.href = 'landing-page.html'; // Redirect to landing-page.html
+        });
+    </script>
+    <script>
+        document.getElementById('signInButton').addEventListener('click', function () {
+            window.location.href = 'login.html';
+        });
+    
+        document.getElementById('loginButton').addEventListener('click', function () {
+            window.location.href = 'home-page.html';
+        });
+    </script>
 </body>
 </html>

@@ -75,7 +75,7 @@ header{
     background-size: cover;
     border-radius: 1rem;
     margin: 0.5rem 2rem 2rem 2rem;
-    box-shadow: -0.5rem 1rem 15rem black;
+    box-shadow: 0 0 15rem black;
     z-index: 10;
 }
 
@@ -118,11 +118,12 @@ header{
 
 .box-bg {
     width: 100%;
-    height: 200rem;
+    height: 241.5rem;
     z-index: -5;
     position: absolute;
     top: 1600px;
     background-color: #001D3D;
+    box-shadow: inset 1rem 1rem 15rem black;
 }
 
 /* Categoreis */
@@ -132,7 +133,7 @@ header{
     height: 90rem;
     border-radius: 2rem;
     position: relative;
-    top: -42rem;
+    top: -40rem;
     left: 5rem;
     margin: 1.5rem 0 1.5rem 0;
     background-color: rgb(255, 255, 255);
@@ -155,6 +156,9 @@ header{
     width: 30rem;
     height: 25rem;
     margin: 0 1rem 3rem 1rem;
+    box-shadow: -0.5rem 1rem 10rem dimgray;
+    border-radius: 2.5%;
+    color: black;
 }
 
 .categories .row  span a img {
@@ -175,7 +179,6 @@ header{
 
 .categories-items:hover {
     border-radius: 2.5%;
-    box-shadow: -0.5rem 1rem 10rem dimgray;
     color: black;
 }
 
@@ -215,11 +218,13 @@ header{
 }
 
 
+
 .card-info {
     width: 32rem;
     height: 32rem;
     background-color: white;
     border-radius: 2rem;
+    box-shadow: inset 0 0 20px black; /* Inner shadow */
     margin: 0 0 1rem 0;
     padding: 1.5rem;
     position: relative;
@@ -241,14 +246,6 @@ header{
     font-weight: 500;
     color: black;
     margin-top: 2rem;
-}
-
-.card-info:hover {
-    box-shadow: -0.5rem 1rem 10rem black;
-    margin: 1.5rem;
-    z-index: 2;
-    transform: scale(1.1);
-    transition: transform  0.3s ease-out;
 }
 
 .card-info:active {
@@ -294,9 +291,9 @@ header{
 .testimonials {
     width: 90%;
     height: 57rem;
-    background-color: lightgrey;
-    z-index: -2;
-    border-radius: 3%;
+    background-color: white;
+    box-shadow: inset 0 0 20px black; /* Inner shadow */
+    z-index: 2;
     margin: 5rem 5rem;
     padding: 2rem;
     position: relative;
