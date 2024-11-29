@@ -41,7 +41,7 @@ header {
 
 .navbar #myNavbar-items {
     position: relative;
-    left: 12rem;
+    left: 10rem;
     font-size: 1.2rem;
 }
 
@@ -63,13 +63,6 @@ header {
     height: 5rem;
     width: 5rem;
     margin: 0 2rem;
-}
-
-.profile a {
-    font-size: 2rem;
-    margin: 0 3rem 0 1rem;
-    text-decoration: none;
-    color: black;
 }
 
 /* Main */
@@ -114,7 +107,7 @@ main {
 
 .login-box {
     width: 30rem;
-    height: 40rem;
+    height: 35rem;
     background-color: white;
     border-radius: 0.5rem;
     display: flex;
