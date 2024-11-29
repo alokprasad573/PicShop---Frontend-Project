@@ -32,12 +32,12 @@ document.getElementById('button-continue').addEventListener('click', function() 
 });
 
 function redirectToLogin() {
-    window.location.href = 'login.html';
+    window.location.href = 'sign-in.html';
 }
 
 // Common - Except Landing and Home Page
 document.getElementById('button-cancel').addEventListener('click', function() {
-    window.location.href = 'login.html';
+    window.location.href = 'sign-in.html';
 });
 
 document.getElementById('button-continue').addEventListener('click', function() {
@@ -46,5 +46,5 @@ document.getElementById('button-continue').addEventListener('click', function() 
 
 // Sign-up-address
 document.getElementById('button-create-account').addEventListener('click', function() {
-    window.location.href = 'home-page.html';
+    window.location.href = 'sign-in.html';
 });
