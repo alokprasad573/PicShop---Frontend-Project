@@ -165,11 +165,11 @@
                             <label class="form-check-label" for="exampleCheck1" style="margin-left: 0.3rem">Agree Terms&Conditions</label>
                     </div>
                     <div class="button">
-                        <button type="button" id="button" class="btn btn-outline-dark">Continue</button>
+                        <button type="button" id="button-continue" class="btn btn-outline-dark">Continue</button>
                     </div>
                     <div class="options">
                         <div>
-                            <p style="font-size: 0.7rem">or Sign up with.If already <a href="#">Log In</a></p>
+                            <p style="font-size: 0.7rem">or Sign up with.If already <a href="#" onclick="redirectToLogin()">Log In</a>
                         </div>
                         <div class="icons">
                             <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
@@ -182,5 +182,26 @@
             </form>
         </div>
     </main>
+    <script>
+        document.getElementById('homeLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            window.location.href = 'landing-page.html'; // Redirect to landing-page.html
+        });
+    </script>
+    <script>
+        document.getElementById('signInButton').addEventListener('click', function () {
+            window.location.href = 'login.html';
+        });
+    </script>
+    <script>
+        document.getElementById('button-continue').addEventListener('click', function() {
+            window.location.href = 'sign-up-name.html';
+        });
+    </script>
+    <script>
+        function redirectToLogin() {
+            window.location.href = 'login.html';
+        }
+    </script>
 </body>
 </html>

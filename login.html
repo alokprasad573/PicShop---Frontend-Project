@@ -86,7 +86,7 @@
                         <button id="loginButton" type="button" class="btn btn-outline-dark">Log In</button>
                     </div>
                     <div class="options">
-                        <p>or Sign in with. <a href="#">Create account.</a></p>
+                        <p>or Sign in with. <a href="#" onclick="redirectToSignUp()">Create account.</a></p>
                     </div>
                     <div class="icons">
                         <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
@@ -110,13 +110,14 @@
         });
     </script>
     <script>
-        document.getElementById('signInButton').addEventListener('click', function () {
-            window.location.href = 'login.html';
-        });
-    
         document.getElementById('loginButton').addEventListener('click', function () {
             window.location.href = 'home-page.html';
         });
+    </script>
+    <script>
+        function redirectToSignUp() {
+            window.location.href = 'sign-up-region.html';
+        }
     </script>
 </body>
 </html>

@@ -330,8 +330,8 @@
                     <a href="#">Testimonials</a>
                     <a href="#">About Us</a>
                     <a href="#">Downloads</a>
-                    <a href="login.html">Log In</a>
-                    <a href="#">Sign Up</a>
+                    <a href="#" onclick="navigateToLogin()">Log In</a>
+                    <a href="#" onclick="navigateToSignUp()">Sign Up</a>
                 </div>
             </div>
             <div class="footer-support">
@@ -366,6 +366,16 @@
             event.preventDefault(); // Prevent the default link behavior
             window.location.href = 'landing-page.html'; // Redirect to landing-page.html
         });
+    </script>
+    <script>
+        function navigateToLogin() {
+            window.location.href = 'login.html';
+        }
+    </script>
+    <script>
+        function navigateToSignUp() {
+            window.location.href = 'sign-up-region.html';
+        }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

@@ -129,12 +129,33 @@
             </div>
           </div>
           <div class="button ">
-            <button type="button" id="button" class="btn btn-outline-dark">Cancel</button>
-            <button type="button" id="button" class="btn btn-outline-dark">Create Account</button>
+            <button type="button" id="button-cancel" class="btn btn-outline-dark">Cancel</button>
+            <button type="button" id="button-create-account" class="btn btn-outline-dark">Create Account</button>
       </div>
       </form>
     </div>
   </main>
+  <script>
+    document.getElementById('homeLink').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        window.location.href = 'landing-page.html'; // Redirect to landing-page.html
+    });
+</script>
+<script>
+    document.getElementById('signInButton').addEventListener('click', function () {
+        window.location.href = 'login.html';
+    });
+</script>
+<script>
+    document.getElementById('button-cancel').addEventListener('click', function() {
+        window.location.href = 'login.html';
+    });
+</script>
+<script>
+    document.getElementById('button-create-account').addEventListener('click', function() {
+        window.location.href = 'home-page.html';
+    });
+</script>
 </body>
 
 </html>
