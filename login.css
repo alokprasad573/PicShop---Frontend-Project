@@ -34,6 +34,11 @@ header {
     color: white;
 }
 
+.search-bar .btn:active {
+    transform: scale(0.8);
+    transition: transform .2s ease-in;
+}
+
 .navbar #myNavbar-items {
     position: relative;
     left: 12rem;
@@ -47,6 +52,11 @@ header {
 
 #myNavbar-items ul li:hover {
     color: black;
+}
+
+.nav-item:active {
+    transform: scale(0.8);
+    transition: transform .2s ease-in;
 }
 
 .navigation-logo img {
@@ -120,12 +130,12 @@ main {
 
 .login a{
     text-decoration: none;
+    color: #0a53be;
 }
 
 .form-check {
     margin: 2rem 0;
 }
-
 
 .options {
     color: black;
@@ -148,17 +158,27 @@ main {
     color: white;
 }
 
+.buttons .btn:active {
+    transform: scale(0.8);
+    transition: transform .2s ease-in;
+}
+
 .form-check-input {
     background-color: white;
 }
 
 .icons a {
     text-decoration: none;
-    color: black;
     font-size: 2rem;
+    color: black;
     text-align: center;
-    margin: 1rem;
+    margin: 1.5rem 1rem;
     position: relative;
-    bottom: -3rem;
-    left: 3rem;
+    bottom: -4rem;
+    left: 4rem;
+}
+
+.icons a i:active {
+    transform: scale(0.8);
+    transition: transform .2s ease-in;
 }
