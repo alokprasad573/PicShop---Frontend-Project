@@ -35,31 +35,6 @@ To set up the project locally, follow these steps:
   - JavaScript (for interactivity)
   - Font Awesome (for icons)
 
-  ## File Structure
-
-  College Project/
-│
-├── images/                  # Contains images used in the application
-├── css/                     # Contains CSS files for styling
-│   ├── landing-page.css
-│   ├── home-page.css
-│   ├── sign-in.css
-│   ├── sign-up-name.css
-│   ├── sign-up-password.css
-│   ├── sign-up-address.css
-│   ├── sign-up-region.css
-│
-├── js/                      # Contains JavaScript files
-│   └── link.js              # JavaScript for handling interactivity
-│
-├── landing-page.html        # Landing page HTML
-├── home-page.html           # Home page HTML
-├── sign-in.html             # Sign-in page HTML
-├── sign-up-name.html        # Sign-up name page HTML
-├── sign-up-password.html     # Sign-up password page HTML
-├── sign-up-address.html      # Sign-up address page HTML
-└── sign-up-region.html       # Sign-up region page HTML
-
 ## Usage 
     
     Open the landing page in your browser.
