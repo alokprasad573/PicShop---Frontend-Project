@@ -40,7 +40,7 @@ document.getElementById('button-cancel').addEventListener('click', function() {
     window.location.href = 'sign-in.html';
 });
 
-document.getElementById('button-continue').addEventListener('click', function() {
+document.getElementById('button-continue-password').addEventListener('click', function() {
     window.location.href = 'sign-up-password.html';
 });
 
