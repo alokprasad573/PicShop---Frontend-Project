@@ -181,10 +181,10 @@ header{
     color: black;
 }
 
-.categories-items:hover {
-    border-radius: 2.5%;
-    color: black;
-}
+/*.categories-items:hover {*/
+/*    border-radius: 2.5%;*/
+/*    color: black;*/
+/*}*/
 
 .categories-items:active {
     transform: scale(0.8);
