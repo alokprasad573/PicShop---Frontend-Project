@@ -34,7 +34,7 @@ To set up the project locally, follow these steps:
   - Bootstrap
   - JavaScript (for interactivity)
   - Font Awesome (for icons)
-  - Google Fonta (for font styling)
+  - Google Fonts (for font styling)
 
 ## Usage 
     
