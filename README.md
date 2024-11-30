@@ -36,6 +36,32 @@ To set up the project locally, follow these steps:
   - Font Awesome (for icons)
   - Google Fonts (for font styling)
 
+## Project Structure
+```
+College Project/
+│
+├── images/                  # Contains images used in the application
+├── css/                     # Contains CSS files for styling
+│   ├── landing-page.css
+│   ├── home-page.css
+│   ├── sign-in.css
+│   ├── sign-up-name.css
+│   ├── sign-up-password.css
+│   ├── sign-up-address.css
+│   ├── sign-up-region.css
+│
+├── js/                      # Contains JavaScript files
+│   └── link.js              # JavaScript for handling interactivity
+│
+├── landing-page.html        # Landing page HTML
+├── home-page.html           # Home page HTML
+├── sign-in.html             # Sign-in page HTML
+├── sign-up-name.html        # Sign-up name page HTML
+├── sign-up-password.html     # Sign-up password page HTML
+├── sign-up-address.html      # Sign-up address page HTML
+└── sign-up-region.html       # Sign-up region page HTML
+```
+
 ## Usage 
     
     Open the landing page in your browser.
@@ -45,8 +71,7 @@ To set up the project locally, follow these steps:
     Sign up for an account to make purchases.
     
     Read customer testimonials to help with your decision-making.
-
-
+   
 ### Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
 
