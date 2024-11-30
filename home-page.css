@@ -75,7 +75,7 @@ header{
     background-size: cover;
     border-radius: 1rem;
     margin: 0.5rem 2rem 2rem 2rem;
-    box-shadow: 0 0 15rem black;
+    box-shadow: -1rem 3rem 7.5rem black;
     z-index: 10;
 }
 
@@ -119,7 +119,6 @@ header{
 .box-bg {
     width: 100%;
     height: 241.5rem;
-    z-index: -5;
     position: absolute;
     top: 1600px;
     background-color: #001D3D;

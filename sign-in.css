@@ -121,6 +121,10 @@ main {
     width: 400px;
 }
 
+.login input[placeholder="example123@gmail.com"] {
+    appearance: none;
+    color: dimgray;
+}
 .login a{
     text-decoration: none;
     color: #0a53be;
