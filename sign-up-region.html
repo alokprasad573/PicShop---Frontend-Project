@@ -38,7 +38,7 @@
                     <a class="nav-link" href="#" id="homeLink">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Categories</a>
+                    <a id="categoriesLink" class="nav-link" href="category_home_page.html">Categories</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Testimonials</a>
@@ -182,27 +182,8 @@
             </form>
         </div>
     </main>
-    <script>
-        document.getElementById('homeLink').addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent the default link behavior
-            window.location.href = 'landing-page.html'; // Redirect to landing-page.html
-        });
-    </script>
-    <script>
-        document.getElementById('signInButton').addEventListener('click', function () {
-            window.location.href = 'login.html';
-        });
-    </script>
-    <script>
-        document.getElementById('button-continue').addEventListener('click', function() {
-            window.location.href = 'sign-up-name.html';
-        });
-    </script>
-    <script>
-        function redirectToLogin() {
-            window.location.href = 'sign-in.html';
-        }
-    </script>
-<!--    <script src="link.js"></script>-->
+
+
+    <script src="sign-up-region.js"></script>
 </body>
 </html>

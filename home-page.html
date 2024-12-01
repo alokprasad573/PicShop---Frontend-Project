@@ -34,7 +34,7 @@
                 <a class="nav-link" href="#" id="homeLink">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Categories</a>
+                <a id="categoriesLink" class="nav-link" href="#">Categories</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Docs</a>
@@ -94,7 +94,7 @@
         </div>
         <div class="top-picks">
             <div class="top-pick-heading">
-                Top Picks For You
+                Know About Cameras
             </div>
         </div>
         <div class="top-picks-products">
@@ -270,8 +270,8 @@
         <div class="footer-company">
             <div>
                 <p>Links</p>
-                <a class="nav-link" href="#" id="homeLink">Home</a>
-                <a href="#">Categories</a>
+                <a class="nav-link" href="home-page.html" id="homeLink">Home</a>
+                <a id="categoriesLink" class="nav-link" href="category_home_page.html">Categories</a>
                 <a href="#">Testimonials</a>
                 <a href="#">About Us</a>
                 <a href="#">Settings</a>
@@ -302,12 +302,7 @@
         </div>
     </div>
 </footer>
-<script>
-    document.getElementById('homeLink').addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent the default link behavior
-        window.location.href = 'home-page.html'; // Redirect to landing-page.html
-    });
-</script>
-<!--<script src="link.js"></script>-->
+
+<script src="home-page.js"></script>
 </body>
 </html>
