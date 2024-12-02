@@ -1,24 +1,25 @@
-
-// By home tag in navigation-bar
+// Home tag in navigation bar
 document.getElementById('homeLink').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default link behavior
-    window.location.href = 'landing-page.html'; // Redirect to landing-page.html
+    window.location.href = 'landing_page.html'; // Redirect to landing-page.html
 });
 
-//sign-in button
+
+// Signin button
 document.getElementById('signInButton').addEventListener('click', function () {
-    window.location.href = 'sign-in.html';
+    window.location.href = 'sign_in.html';
 });
 
-// cancel button
-document.getElementById('button-cancel').addEventListener('click', function() {
-    window.location.href = 'sign-up-region.html';
+//log-in button
+function redirectToLogin() {
+    window.location.href = 'sign_in.html';
+}
+
+// button continue
+document.getElementById('button-continue').addEventListener('click', function() {
+    window.location.href = 'sign_up_name.html';
 });
 
-//Continue button button
-document.getElementById('button-continue-password').addEventListener('click', function() {
-    window.location.href = 'sign-up-password.html';
-});
 
 // categories
 document.addEventListener("DOMContentLoaded", function() {

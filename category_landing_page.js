@@ -1,20 +1,20 @@
 // sign in page
 document.getElementById('signInButton').addEventListener('click', function () {
-    window.location.href = 'sign-in.html';
+    window.location.href = 'sign_in.html';
 });
 
 // home-page
 document.getElementById('homeLink').addEventListener('click', function (event) {
     event.preventDefault(); // Prevent the default link behavior
-    window.location.href = 'landing-page.html'; // Redirect to landing-page.html
+    window.location.href = 'landing_page.html'; // Redirect to landing-page.html
 });
 
 function navigateToLogin() {
-    window.location.href = 'sign-in.html';
+    window.location.href = 'sign_in.html';
 }
 
 function navigateToSignUp() {
-    window.location.href = 'sign-up-region.html';
+    window.location.href = 'sign_up_region.html';
 }
 
 //  // Select the anchor element by its ID

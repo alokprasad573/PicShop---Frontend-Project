@@ -1,7 +1,7 @@
 // home
 document.getElementById('homeLink').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default link behavior
-    window.location.href = 'home-page.html'; // Redirect to landing-page.html
+    window.location.href = 'home_page.html'; // Redirect to landing-page.html
 });
 
 // category

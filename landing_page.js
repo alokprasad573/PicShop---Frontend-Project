@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let homeLink = document.getElementById("homeLink");
 
     // Set the href attribute to the desired URL
-    homeLink.href = "landing-page.html";
+    homeLink.href = "landing_page.html";
 });
 
 //categories tag
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add an event listener to handle the click event
     signInButton.addEventListener("click", function() {
         // Navigate to the sign.html page
-        window.location.href = "sign-in.html";
+        window.location.href = "sign_in.html";
     });
 });
 
@@ -34,14 +34,14 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     // Function to navigate to sign-in.html
     window.navigateToLogin = function() {
-        window.location.href = "sign-in.html";
+        window.location.href = "sign_in.html";
     };
 
 
 
     // Function to navigate to sign-up-region.html
     window.navigateToSignUp = function() {
-        window.location.href = "sign-up-region.html";
+        window.location.href = "sign_up_region.html";
     };
 });
 
