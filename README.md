@@ -42,7 +42,12 @@ To set up the project locally, follow these steps:
 ```
 College Project/
 │
-├── images/                  # Contains images used in the application
+├── cannon/                # Contains images used in the application
+├── fujifilm/
+├── images/
+├── nikon/
+├── sony/
+├── tamron/                  
 ├── css/                     # Contains CSS files for styling
 │   ├── landing_page.css
 │   ├── home_page.css
