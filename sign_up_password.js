@@ -1,24 +1,23 @@
-// landing page
+
 document.getElementById('homeLink').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default link behavior
-    window.location.href = 'landing-page.html'; // Redirect to landing-page.html
+    window.location.href = 'landing_page.html'; // Redirect to landing-page.html
 });
 
 //sign-in button
 document.getElementById('signInButton').addEventListener('click', function () {
-    window.location.href = 'sign-in.html';
+    window.location.href = 'sign_in.html';
 });
 
 // cancel button
 document.getElementById('button-cancel').addEventListener('click', function() {
-    window.location.href = 'sign-up-password.html';
+    window.location.href = 'sign_up_name.html';
 });
 
-//create account button
-document.getElementById('button-create-account').addEventListener('click', function() {
-    window.location.href = 'home-page.html';
+//Continue button button
+document.getElementById('button-continue').addEventListener('click', function() {
+    window.location.href = 'sign_up_address.html';
 });
-
 
 // categories
 document.addEventListener("DOMContentLoaded", function() {
