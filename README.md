@@ -15,7 +15,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/alokprasad573/College-Project-Web-Server.git
 
 2. **Navigate to repository**
     ```bash
